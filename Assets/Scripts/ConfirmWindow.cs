@@ -29,11 +29,13 @@ public class ConfirmWindow : MonoBehaviour
     {
         ActionConfirmed?.Invoke();
         _blurPanel.gameObject.SetActive(false);
+
     }
 
     public void Show(string header)
     {
         _blurPanel.gameObject.SetActive(true);
         _headerText.text = header;
+        print("show");
     }
 }
