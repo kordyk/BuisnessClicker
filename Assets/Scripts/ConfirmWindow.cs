@@ -29,7 +29,6 @@ public class ConfirmWindow : MonoBehaviour
     {
         ActionConfirmed?.Invoke();
         _blurPanel.gameObject.SetActive(false);
-
     }
 
     public void Show(string header)
